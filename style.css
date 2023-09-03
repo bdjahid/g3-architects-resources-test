@@ -134,9 +134,51 @@ main {
     line-height: 26px;
 }
 
+/* features */
+.features {
+    margin: 130px 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.features .feature-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .feature-card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.ten-years-badge h2 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten-years-badge p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 /* facts section */
 .facts {
-    padding: 40px 80px;
+    padding: 0 80px;
 }
 
 .fact-title {
@@ -159,6 +201,7 @@ main {
 .card-container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
 }
 
 .card {
@@ -190,6 +233,7 @@ main {
 }
 
 /* sponsor style */
+
 
 .sponsor {
     text-align: center;
@@ -224,7 +268,7 @@ main {
 
 /* footer section */
 footer {
-    width: 1440px;
+    width: 1240px;
     height: 100px;
     border-radius: 8px;
     background: #FFF4E7;
@@ -283,9 +327,18 @@ footer {
         width: 100%;
     }
 
+    .sponsor {
+        width: 100%;
+    }
+
     .sponsors-img {
         flex-direction: column;
+        width: 100%;
         gap: 30px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
 
